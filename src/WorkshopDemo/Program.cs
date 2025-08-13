@@ -29,7 +29,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-appx.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.MapHealthChecks("/api/healthz");
 
